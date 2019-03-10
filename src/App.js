@@ -6,7 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar'
+
 import MySweetNavBar from './components/MySweetNavBar'
 
 import ProductList from './components/ProductList'
