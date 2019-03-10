@@ -82,7 +82,7 @@ closeErrorAlert = () =>{
 
         console.log(data);
 
-        fetch('http://localhost:8080/api/users/login', {
+        fetch('http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/users/login', {
             method: 'POST',
             body: JSON.stringify(data),
 
@@ -145,7 +145,7 @@ NewUserHandle = (event) => {
 
     console.log(data);
 
-    fetch('http://localhost:8080/api/users/createNewUser', {
+    fetch('http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/users/createNewUser', {
         method: 'POST',
         body: JSON.stringify(data),
 
@@ -282,7 +282,7 @@ NewUserHandle = (event) => {
     //----------------------Getting all items-------
 
     getFreshItems = () => {
-        fetch("http://localhost:8080/api/stores/getItems")
+        fetch("http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/stores/getItems")
             .then(response => response.json())
             .then(data => {
                 return data
@@ -543,7 +543,7 @@ NewUserHandle = (event) => {
     //-------------------Setting initial categories--------
     setCategories = () => {
         console.log('ssssssssssspppppppp')
-        fetch("http://localhost:8080/api/stores/getCategories")
+        fetch("http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/stores/getCategories")
             .then(response => response.json())
             .then(data => {
                 console.log('my Categories' + data[1]);
@@ -566,7 +566,7 @@ NewUserHandle = (event) => {
     setDepartments = () => {
         console.log('Searching Product')
 
-        fetch("http://localhost:8080/api/stores/getDepartments")
+        fetch("http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/stores/getDepartments")
             .then(response => response.json())
             .then(data => {
                 console.log('my Categories' + data[1]);
@@ -590,7 +590,7 @@ NewUserHandle = (event) => {
 
     setColors = () => {
 
-        fetch("http://localhost:8080/api/stores/getColors")
+        fetch("http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/stores/getColors")
             .then(response => response.json())
             .then(data => {
                 console.log('my Categories' + data[1]);
@@ -610,7 +610,7 @@ NewUserHandle = (event) => {
 
     //----------------Setting Products----------
     setProducts = () => {
-        fetch("http://localhost:8080/api/stores/getItems")
+        fetch("http://app-256de236-c58d-471f-9955-aecb3eb83a3d.cleverapps.io/api/stores/getItems")
             .then(response => response.json())
             .then(data => {
 
