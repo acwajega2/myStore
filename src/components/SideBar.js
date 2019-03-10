@@ -5,7 +5,8 @@ import ItemDepartments from './itemDepartments'
 import { ProductConsumer } from '../context';
 import ItemColors from './ItemColors';
 
-import {Button,Card} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
+import Card from "react-bootstrap/Card";
 
 
 
