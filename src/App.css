@@ -1,0 +1,101 @@
+:root{
+  --mainBlue :  #2c3e50;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body{
+  font-family: 'Roboto', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  }
+
+  .text-blue{
+    color: var(--mainBlue)
+  }
+  .text-bright{
+    color: var(--lightBlue)
+  }
+  .btn-black{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: #ff0066;
+    border-radius: 0 !important;
+    border: 0.1rem solid #ff0066 !important;
+    
+  }
+  .btn-black:hover{
+    background: #ff0066;
+    color: var(--mainWhite) !important;
+  }
+
+  .cart-icon{
+    cursor :pointer;
+    font-size: 1.2rem;
+    color: #ff0066;
+  }
+  .sweet-nav-bar{
+    background: #fafafa;
+    color :#030303;
+ 
+    border-bottom-color: #b6adb0;
+    padding-right: 10rem;
+    position: fixed;
+
+    color: var(--var(--mainDark))
+
+  }
+  .brand-name{
+    color: #572f3f;
+    font-family: 'Franklin Gothic Medium';
+  }
+  
+  .my-carasole{
+    margin-top: 62px;
+    height: 300px !important;
+    background-color: #686767;
+    width: 100%;
+  }
+  .my-sweet-side-bar{   
+    margin-left: 0.3rem;
+    margin-right: 19rem;
+
+    
+    
+    margin-top: 5.6rem;
+    position:relative;
+    display:inline-block;
+    overflow: hidden; 
+    width: 280px !important;
+     
+       height: 100%;
+    
+  }
+  .pull-right {
+    float: right !important;
+  }
+  .item-categories{
+    background: #ffff; 
+    transition: all 1s linear;
+    border-bottom-color: #b6adb0 !important;
+
+    
+  }
+  .item-categories:hover{
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2);
+    background: #86888b;
+   
+    color: #ffff;
+    cursor: pointer;
+    
+
+  }
