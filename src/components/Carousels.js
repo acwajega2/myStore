@@ -13,20 +13,21 @@ class Carousels extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Amazing Offers</h3>
+                            <p>Check out or amazing Offers</p>
+                          
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="img-fluid"
-                            src={process.env.PUBLIC_URL + '/Images/carasole/d.jpg'}
+                            className="img-fluid flex"
+                            src={process.env.PUBLIC_URL + '/Images/carasole/s.jpg'}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Great Discounts</h3>
+                            <p>For all your purchases, you will enjoy 10% discount.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
