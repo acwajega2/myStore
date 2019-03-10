@@ -4,8 +4,8 @@ import ItemCategories from './ItemCategories';
 import ItemDepartments from './itemDepartments'
 import { ProductConsumer } from '../context';
 import ItemColors from './ItemColors';
-import Card from 'react-bootstrap/Card';
-import {Button} from 'react-bootstrap';
+
+import {Button,Card} from 'react-bootstrap';
 
 
 
