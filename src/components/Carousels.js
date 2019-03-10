@@ -30,18 +30,7 @@ class Carousels extends Component {
                             <p>For all your purchases, you will enjoy 10% discount.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="img-fluid"
-                            src={process.env.PUBLIC_URL + '/Images/carasole/s.jpg'}
-                            alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
+                    
                 </Carousel>.
             </div>
         );
